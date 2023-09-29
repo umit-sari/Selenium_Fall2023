@@ -13,10 +13,13 @@ public class C06_DropdownnMenu extends TestBase {
         driver.get("https://www.amazon.com");
         // 1.adim : dropdown webelementini locate et
         WebElement dropDownElementi = driver.findElement(By.xpath("//select[@title='Search in']"));
+
         // 2.adim locate ettigimiz webelementi parametre olarak yazip select objesi olustur
         Select select = new Select(dropDownElementi);
+
         // 3.adim select objesi ile istenen islemi yap
         select.selectByValue("search-alias=automotive-intl-ship");
+
         bekle(2);
         select.selectByIndex(7);
         bekle(2);
