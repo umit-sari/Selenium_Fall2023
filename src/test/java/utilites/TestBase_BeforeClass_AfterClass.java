@@ -21,7 +21,9 @@ public class TestBase_BeforeClass_AfterClass {
 
     @AfterClass
     public static void teardown(){
-        driver.close();
+
+        //driver.close();
+        driver.quit();
     }
 
     public static void bekle(int saniye){

@@ -9,7 +9,7 @@ import utilites.TestBase;
 public class C04_BasicAuthentication extends TestBase {
 
     @Test
-    public void test01(){
+    public void test01() {
         //1- Bir class olusturun : BasicAuthentication
         //2- https://the-internet.herokuapp.com/basic_auth sayfasina gidin
         //3- asagidaki yontem ve test datalarini kullanarak authentication’i yapin
