@@ -46,7 +46,6 @@ public class C01_sagClick extends TestBase {
             }
         }
 
-
        // 7- Acilan sayfada h1 taginda “Make sure your code lands” yazdigini test edelim
         driver.switchTo().window(ikinciSayfaWhd);
         String expectedYazi = "Make sure your code lands";
