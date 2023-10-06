@@ -1,4 +1,4 @@
-package day_excelOtomasyonu;
+package day13_excelOtomasyonu;
 
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -7,7 +7,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class C02_readExcel {

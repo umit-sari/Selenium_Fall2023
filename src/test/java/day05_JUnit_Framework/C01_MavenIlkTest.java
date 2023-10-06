@@ -14,8 +14,10 @@ import java.util.List;
 public class C01_MavenIlkTest {
     public static void main(String[] args) {
 
-        WebDriverManager.chromedriver().setup(); // System.setProperty yerine bunu kullaniyoruz ve tüm browserları getiriyor
-        // 13.satiri yazmamiz mecburi degildir.Selenium 4.8 versiyonundan sonra kendi Driver methodunu olusturmustur.
+        WebDriverManager.chromedriver().setup();
+        // System.setProperty yerine bunu kullaniyoruz ve tüm browserları getiriyor
+        // 13.satiri yazmamiz mecburi degildir.
+        // Selenium 4.8 versiyonundan sonra kendi Driver methodunu olusturmustur.
         //Biz 13.satirdaki gibi Webdriver tanimlamaz isek Selenium kendi driver'ini devreye sokar.
 
         WebDriver driver=new ChromeDriver();
